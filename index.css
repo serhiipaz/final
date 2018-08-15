@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+:root {
+    font-family: 'Permanent Marker', cursive;
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+    padding: 1px;
+
+p:: first-letter{
+    font-size 2rem
+}
+
+    }
+
+header nav p {
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 2rem;
+    
+}
+
+
+header nav ul {
+    margin-left: 2;
+    padding-left: 2;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    color: green;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+    
+media (min-width: 200px) 
+    header nav {
+        display: flex;
+}  
+
+    header ul {
+        display: flex;
+        flex: 1;
+        align-items: center;
+}
+    header nav ul li {
+        margin-left: 2%;
+}
+    header nav ul li:last-child {
+        margin-left: auto;
+}
+
+.product-card {
+    border: 4px solid green;
+    padding: 2px;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-card div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-card div button {
+    width: 50%;
+}
+
+.header iframe src {
+    border : solid green;
+}
+
+@media (min-width: 700px) {
+        .product-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 2px;
+         
